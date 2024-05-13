@@ -54,8 +54,8 @@ def neat_func(config_path) -> Tuple[Neuro_Evolution, str]:
     return "NEAT", NEAT, neat_config_path
 
 
-# start_config_path = "./config/config_snn/RL/"
-start_config_path = "./config/config_ann/RL/"
+start_config_path = "./config/config_snn/RL/"
+# start_config_path = "./config/config_ann/RL/"
 
 def neuro_evo_matrix_func(args:List[str]):
     if len(args) == 0:raise Exception("Error: No arguments")
